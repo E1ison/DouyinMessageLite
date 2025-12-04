@@ -38,7 +38,7 @@
 ---
 
 ## 2. 环境说明（Environment）
-### 3.1 开发环境
+### 2.1 开发环境
 | 环境项       | 要求                                                                 |
 |--------------|----------------------------------------------------------------------|
 | 操作系统     | Windows / macOS / Linux 均可                                         |
@@ -46,7 +46,7 @@
 | JDK          | JDK 8 或以上（推荐使用 AS 自带 JDK，无需单独安装）                   |
 | Gradle       | 使用项目自带的 Gradle Wrapper（查看：gradle/wrapper/gradle-wrapper.properties） |
 
-### 3.2 Android SDK 配置
+### 2.2 Android SDK 配置
 以工程 `app/build.gradle` 配置为准，推荐版本：
 - compileSdkVersion：33 或以上
 - minSdkVersion：21 或以上
@@ -59,7 +59,7 @@
    - Android SDK Build-Tools
 3. 点击 Apply 等待安装完成
 
-### 3.3 运行环境（设备）
+### 2.3 运行环境（设备）
 #### 模拟器
 - 推荐 Android 8.0+ 系统镜像（方便查看前台 Service 行为）
 
@@ -69,7 +69,7 @@
 - Android 13+ 设备需授予“通知权限”（项目已包含权限申请逻辑）
 
 ## 3. 运行指南（How to Run）
-### 4.1 获取代码
+### 3.1 获取代码
 #### 方法一：Git 克隆
 ```bash
 git clone https://github.com/<your-username>/DouyinMessageLite.git
