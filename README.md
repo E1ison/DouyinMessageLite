@@ -60,3 +60,42 @@ com.example.douyinmessagelite
 │
 └─ utils/
    └─ TimeUtils           # 消息时间文案格式化工具
+
+## 3. 环境说明（Environment）
+### 3.1 开发环境
+| 环境项       | 要求                                                                 |
+|--------------|----------------------------------------------------------------------|
+| 操作系统     | Windows / macOS / Linux 均可                                         |
+| IDE          | Android Studio（Giraffe / Hedgehog / Iguana 及以上版本）             |
+| JDK          | JDK 8 或以上（推荐使用 AS 自带 JDK，无需单独安装）                   |
+| Gradle       | 使用项目自带的 Gradle Wrapper（查看：gradle/wrapper/gradle-wrapper.properties） |
+
+### 3.2 Android SDK 配置
+以工程 `app/build.gradle` 配置为准，推荐版本：
+- compileSdkVersion：33 或以上
+- minSdkVersion：21 或以上
+- targetSdkVersion：33 或以上
+
+**首次打开项目缺失 SDK 处理**：
+1. 打开 Android Studio → SDK Manager
+2. 勾选对应版本的：
+   - Android SDK Platform
+   - Android SDK Build-Tools
+3. 点击 Apply 等待安装完成
+
+### 3.3 运行环境（设备）
+#### 模拟器
+- 推荐 Android 8.0+ 系统镜像（方便查看前台 Service 行为）
+
+#### 真机
+- 开启“开发者选项”和“USB 调试”
+- 使用数据线连接电脑
+- Android 13+ 设备需授予“通知权限”（项目已包含权限申请逻辑）
+
+## 4. 运行指南（How to Run）
+### 4.1 获取代码
+#### 方法一：Git 克隆
+```bash
+git clone https://github.com/<your-username>/DouyinMessageLite.git
+cd DouyinMessageLite
+
