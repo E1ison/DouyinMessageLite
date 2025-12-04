@@ -1,4 +1,4 @@
-# DouyinMessageLite · 抖音风格消息列表 Demo
+# 抖音风格消息列表 Demo
 <img width="256" height="512" alt="Screenshot_20251204_183722" src="https://github.com/user-attachments/assets/034f3bda-9034-44da-a972-7331de678d83" />
 <img width="256" height="512" alt="Screenshot_20251204_183745" src="https://github.com/user-attachments/assets/308e71d4-1f18-4135-b931-3df721070453" />
 <img width="256" height="512" alt="Screenshot_20251204_194842" src="https://github.com/user-attachments/assets/31957dfd-4af1-4f76-a8b0-0141f749cff1" />
