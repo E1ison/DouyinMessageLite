@@ -75,9 +75,6 @@
 git clone https://github.com/<your-username>/DouyinMessageLite.git
 cd DouyinMessageLite
 
-## 4. 项目结构简要说明
-
-```text
 com.example.douyinmessagelite
 ├─ ui/                    # 界面层
 │  ├─ messages/           # 消息列表页（Activity + ViewModel + Adapter）
