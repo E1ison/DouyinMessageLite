@@ -37,7 +37,7 @@
 
 ---
 
-## 3. 环境说明（Environment）
+## 2. 环境说明（Environment）
 ### 3.1 开发环境
 | 环境项       | 要求                                                                 |
 |--------------|----------------------------------------------------------------------|
@@ -68,10 +68,34 @@
 - 使用数据线连接电脑
 - Android 13+ 设备需授予“通知权限”（项目已包含权限申请逻辑）
 
-## 4. 运行指南（How to Run）
+## 3. 运行指南（How to Run）
 ### 4.1 获取代码
 #### 方法一：Git 克隆
 ```bash
 git clone https://github.com/<your-username>/DouyinMessageLite.git
 cd DouyinMessageLite
+
+## 4. 项目结构简要说明
+
+```text
+com.example.douyinmessagelite
+├─ ui/                    # 界面层
+│  ├─ messages/           # 消息列表页（Activity + ViewModel + Adapter）
+│  ├─ remark/             # 备注页 / 会话历史（Activity + Adapter）
+│  ├─ stats/              # 统计看板（Activity + ViewModel）
+│  └─ settings/           # 设置页（云同步开关）
+│
+├─ data/                  # 数据层
+│  ├─ model/              # 数据模型（Message、StatsData）
+│  ├─ local/              # 本地 JSON 数据源（assets/mock_messages.json）
+│  ├─ db/                 # SQLiteOpenHelper（AppDatabaseHelper）
+│  ├─ prefs/              # SharedPreferences 封装（PrefsManager）
+│  └─ repository/         # 统一数据入口（MessageRepository）
+│
+├─ msgcenter/             # 消息中心 / 推送模拟
+│  ├─ MessageCenter               # 前台页面定时插入消息（单例）
+│  └─ MessageForegroundService    # 后台前台服务 + 通知栏推送
+│
+└─ utils/
+   └─ TimeUtils           # 消息时间文案格式化工具
 
