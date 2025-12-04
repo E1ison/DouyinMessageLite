@@ -61,6 +61,8 @@ com.example.douyinmessagelite
 └─ utils/
    └─ TimeUtils           # 消息时间文案格式化工具
 
+---
+
 ## 3. 环境说明（Environment）
 ### 3.1 开发环境
 | 环境项       | 要求                                                                 |
