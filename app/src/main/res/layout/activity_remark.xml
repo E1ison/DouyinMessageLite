@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootRemark"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 顶部：昵称 -->
+    <TextView
+        android:id="@+id/tvNickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="昵称"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#212121" />
+
+    <!-- 中间：历史消息列表（聊天气泡） -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHistory"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <!-- 分割线 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDDDDD"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- 备注标题 -->
+    <TextView
+        android:id="@+id/tvRemarkLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="备注"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="4dp" />
+
+    <!-- 备注输入框：去掉丑矩形，用透明背景 + 下划线 -->
+    <EditText
+        android:id="@+id/etRemark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入备注..."
+        android:minHeight="48dp"
+        android:gravity="top|start"
+        android:background="@android:color/transparent"
+        android:textSize="16sp"
+        android:textColor="#212121" />
+
+    <!-- 备注输入框下划线 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 底部按钮 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="退出"
+            android:layout_marginEnd="12dp"
+            app:cornerRadius="16dp"
+            app:backgroundTint="#FFEBEE"
+            android:textColor="#FF6600" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            app:cornerRadius="16dp"
+            app:backgroundTint="#FF6600"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

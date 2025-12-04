@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+
+    <!-- 时间 -->
+    <TextView
+        android:id="@+id/tvHistoryTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="刚刚"
+        android:textSize="12sp"
+        android:textColor="#999999"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="2dp" />
+
+    <!-- 消息内容气泡 -->
+    <TextView
+        android:id="@+id/tvHistoryContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_message_bubble"
+        android:text="这是历史消息内容"
+        android:textSize="15sp"
+        android:textColor="#212121"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="48dp" />
+    <!-- 右边留空一点，模拟对方消息气泡在左侧 -->
+</LinearLayout>
