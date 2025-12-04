@@ -4,9 +4,9 @@
 <img width="256" height="512" alt="Screenshot_20251204_184032" src="https://github.com/user-attachments/assets/3a436083-21ef-46d8-856c-d7180f18f17d" />
 <img width="256" height="512" alt="Screenshot_20251204_194532" src="https://github.com/user-attachments/assets/17470877-15d3-442d-8922-9d711ff39901" />
 <img width="256" height="512" alt="Screenshot_20251204_194543" src="https://github.com/user-attachments/assets/520a1ce0-609a-4284-9a41-2bfc44386b93" />
+
 一个简化版的“抖音消息中心”客户端 Demo，包含消息会话列表、备注页、统计看板以及云同步模拟（前台/后台推送）。  
 项目采用 **MVVM + Repository** 架构，数据持久化使用 **SQLite**，配置使用 **SharedPreferences**。
-
 
 ---
 
