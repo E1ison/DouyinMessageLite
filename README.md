@@ -1,6 +1,7 @@
 # DouyinMessageLite · 抖音风格消息列表 Demo
 <img width="256" height="512" alt="Screenshot_20251204_183722" src="https://github.com/user-attachments/assets/034f3bda-9034-44da-a972-7331de678d83" />
 <img width="256" height="512" alt="Screenshot_20251204_183745" src="https://github.com/user-attachments/assets/308e71d4-1f18-4135-b931-3df721070453" />
+<img width="256" height="512" alt="Screenshot_20251204_194842" src="https://github.com/user-attachments/assets/31957dfd-4af1-4f76-a8b0-0141f749cff1" />
 <img width="256" height="512" alt="Screenshot_20251204_184032" src="https://github.com/user-attachments/assets/3a436083-21ef-46d8-856c-d7180f18f17d" />
 <img width="256" height="512" alt="Screenshot_20251204_194532" src="https://github.com/user-attachments/assets/17470877-15d3-442d-8922-9d711ff39901" />
 <img width="256" height="512" alt="Screenshot_20251204_194543" src="https://github.com/user-attachments/assets/520a1ce0-609a-4284-9a41-2bfc44386b93" />
